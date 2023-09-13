@@ -7,9 +7,8 @@
 A simple landing page made as part of the foundations course on the Odin Project. The page utilizes flex to display and organize elements on the page.
 
 ### Screenshots
-Initial design
-![Initial design image] (/layout.png)
+Initial Design Layout  
+![Initial Design Layout](/layout.png)
 
-Color Scheme
-https://github.com/ewoknock/odin-landing-page/blob/main/colorscheme.png?raw=true
-
+Initial Color Scheme  
+![Color Scheme](/colorscheme.png)
