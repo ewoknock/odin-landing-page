@@ -9,6 +9,7 @@ A simple landing page made as part of the foundations course on the Odin Project
 ### Screenshots
 Initial design
 https://github.com/ewoknock/odin-landing-page/blob/main/layout.png?raw=true
+(../layout.png)
 
 Color Scheme
 https://github.com/ewoknock/odin-landing-page/blob/main/colorscheme.png?raw=true
