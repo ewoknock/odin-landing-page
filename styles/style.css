@@ -1,16 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
     color: white;
     height: 100vh;
 }
 
 /* HEADER */ 
-header{
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,21 +21,15 @@ header{
     padding: 1em 10em;
 }
 
-.left-nav{
+.nav .left{
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
 }
 
-.right-nav{
+.nav .right{
     display: flex;
     gap: 15px;
-}
-
-.section{
-    display: flex;
-    flex: 1;
-    justify-content: center;
 }
 
 ul{
@@ -51,12 +48,56 @@ a{
 .hero{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 4em 7em;
 }
-.hero-text{
+
+.hero .left{
     display: flex;
     flex-direction: column;
-    flex-basis: 25%;
+    justify-content: center;
+    gap: 10px;
 }
+
+.hero .right{
+    display: flex;
+    flex-shrink: 0;
+    height: 200px;
+    width: 50%;
+    background-color: #868686;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero .left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button{
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    padding: 7px 1em;
+    border: none;
+}
+
+.section{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+
+
 
 .hero,
 header,
